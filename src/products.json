@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Copilot",
+        "provider": "Github",
+        "url": "https://github.com/features/copilot",
+        "signup_url": "https://github.com/features/copilot#pricing",
+        "desc": "Trained on billions of lines of code, GitHub Copilot turns natural language prompts into coding suggestions across dozens of languages.",
+        "categories": ["Developer Tools", "Productivity Tools"],
+        "functionalities": ["AI Coding Assistant"],
+        "category_deps": ["Code Editor"],
+        "product_deps": [["Microsoft", "Visual Studio"], ["Microsoft", "Visual Studio Code"], ["Neovim", "Neovim"]],
+        "integrations": [],
+        "tiers": [
+            {
+                "name": "Individual",
+                "price_numerator": 10.0,
+                "price_denom": ["month"],
+                "functionalities": []
+            },
+            {
+                "name": "Business",
+                "price_numerator": 19.0,
+                "price_denom": ["user", "month"],
+                "functionalities": []
+            }
+        ]
+    }
+]
